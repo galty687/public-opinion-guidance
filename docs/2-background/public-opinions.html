@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-accent-color="violet" data-content_root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>舆论 - 舆论引导项目 0.1 文档</title><link rel="index" title="索引" href="../genindex.html" /><link rel="search" title="搜索" href="../search.html" /><link rel="next" title="舆论引导" href="intro.html" /><link rel="prev" title="项目介绍" href="../1-Intro/project.html" /><script>
+    function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
+    setColorMode(localStorage._theme||"auto");
+  </script><link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=397bb51e" />
+    <link rel="stylesheet" type="text/css" href="../_static/shibuya.css?v=d48c410d" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link media="print" rel="stylesheet" type="text/css" href="../_static/print.css?v=20ff2c19" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sy-f-text: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+  --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+}
+</style>
+    <meta property="og:type" content="website"/><meta property="og:title" content="舆论"/>
+<meta name="twitter:card" content="summary"/>
+  </head>
+<body><div class="sy-head">
+  <div class="sy-head-blur"></div>
+  <div class="sy-head-inner sy-container mx-auto">
+    <a class="sy-head-brand" href="../index.html">
+      
+      
+      <strong>舆论引导项目</strong>
+    </a>
+    <div class="sy-head-nav" id="head-nav">
+      <nav class="sy-head-links"></nav>
+      <div class="sy-head-extra flex items-center print:hidden"><form class="searchbox flex items-center" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="搜索" />
+  <kbd>/</kbd>
+</form><div class="sy-head-socials"></div></div>
+    </div>
+    <div class="sy-head-actions flex items-center shrink-0 print:hidden"><button class="js-theme theme-switch flex items-center"
+data-aria-auto="切换到亮色模式"
+data-aria-light="切换到暗色模式"
+data-aria-dark="切换到自动模式">
+<i class="i-lucide theme-icon"></i>
+</button><button class="md:hidden flex items-center js-menu" aria-label="Menu" type="button" aria-controls="head-nav" aria-expanded="false">
+        <div class="hamburger">
+          <span class="hamburger_1"></span>
+          <span class="hamburger_2 -translate-x-2"></span>
+          <span class="hamburger_3 -translate-x-1"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="sy-page sy-container flex mx-auto">
+  <aside id="lside" class="sy-lside md:w-72 md:shrink-0 print:hidden">
+    <div class="sy-lside-inner md:sticky">
+      <div class="sy-scrollbar p-6">
+        <div class="globaltoc" data-expand-depth="0"><p class="caption" role="heading" aria-level="3"><span class="caption-text">项目介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../1-Intro/project.html">项目介绍</a></li>
+</ul>
+<p class="caption" role="heading" aria-level="3"><span class="caption-text">背景知识</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">舆论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">舆论引导</a></li>
+</ul>
+<p class="caption" role="heading" aria-level="3"><span class="caption-text">相关理论</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../3-thoeries/framing.html">框架效应</a></li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="lside-overlay js-menu" role="button" aria-label="Close left sidebar" aria-controls="lside" aria-expanded="false"></div>
+  <aside id="rside" class="sy-rside pb-3 w-64 shrink-0 order-last">
+    <button class="rside-close js-menu xl:hidden" aria-label="Close Table of Contents" type="button" aria-controls="rside" aria-expanded="false">
+      <i class="i-lucide close"></i>
+    </button>
+    <div class="sy-scrollbar sy-rside-inner px-6 xl:top-16 xl:sticky xl:pl-0 pt-6 pb-4"><div class="localtoc"><h3>该页内容</h3><ul>
+<li><a class="reference internal" href="#public">&#20844;&#20247; (Public)</a></li>
+<li><a class="reference internal" href="#opinion">&#24847;&#35265; (Opinion)</a><ul>
+<li><a class="reference internal" href="#id2">&#20010;&#20307;&#24847;&#35265;&#30340;&#24179;&#31561;</a></li>
+<li><a class="reference internal" href="#id3">&#22810;&#25968;&#20154;&#30340;&#24847;&#35265;&#26356;&#37325;&#35201;</a></li>
+<li><a class="reference internal" href="#id4">&#31934;&#33521;&#24847;&#35265;</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id5">&#33286;&#35770;&#30340;&#23450;&#20041;</a></li>
+<li><a class="reference internal" href="#id6">&#33286;&#35770;&#30340;&#22235;&#20010;&#35201;&#32032;</a><ul>
+<li><a class="reference internal" href="#id7">&#26041;&#21521;</a></li>
+<li><a class="reference internal" href="#id8">&#24378;&#24230;</a></li>
+<li><a class="reference internal" href="#id9">&#31283;&#23450;&#24615;</a></li>
+<li><a class="reference internal" href="#id10">&#26174;&#33879;&#24615;</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id11">&#22235;&#32500;&#32852;&#21160;</a></li>
+<li><a class="reference internal" href="#id12">&#21442;&#32771;&#25991;&#29486;</a></li>
+</ul>
+</div><div id="ethical-ad-placement" data-ea-publisher="readthedocs"></div></div>
+  </aside>
+  <div class="rside-overlay js-menu" role="button" aria-label="Close Table of Contents" aria-controls="rside" aria-expanded="false"></div>
+  <main class="sy-main w-full max-sm:max-w-full print:pt-6">
+<div class="sy-breadcrumbs" role="navigation">
+  <div class="sy-breadcrumbs-inner flex items-center">
+    <div class="md:hidden mr-3">
+      <button class="js-menu" aria-label="Menu" type="button" aria-controls="lside" aria-expanded="false">
+        <i class="i-lucide menu"></i>
+      </button>
+    </div>
+    <ol class="flex-1" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="../index.html"><span itemprop="name">舆论引导项目</span></a>
+        <span>/</span>
+        <meta itemprop="position" content="1" />
+      </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <strong itemprop="name">舆论</strong>
+        <meta itemprop="position" content="2" />
+      </li></ol>
+    <div class="xl:hidden ml-1">
+      <button class="js-menu" aria-label="Show table of contents" type="button" aria-controls="rside"
+        aria-expanded="false">
+        <i class="i-lucide outdent"></i>
+      </button>
+    </div>
+  </div>
+</div><div class="flex flex-col break-words justify-between">
+      <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
+        <article class="yue" role="main">
+          <section id="id1">
+<h1>舆论<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h1>
+<p>中文舆论，通常对应的英文术语是Public Opinion，在某些特殊的场合，也对应popular opinion，强调流行观点。</p>
+<section id="public">
+<h2>公众 (Public)<a class="headerlink" href="#public" title="Link to this heading">¶</a></h2>
+<p>简单来说，公众可以被理解为共享某种共同点的人，或者共同面对特定问题的一群人。有些人属于“关注型公众”（attentive public），他们密切关注政府和政治整体事务。另一些人则是“议题公众”（issue publics）的成员，他们只聚焦于某些具体的公共政策争论，例如堕胎或国防开支，而对其他议题置之不理（Stimson, 1999）。还有一些公众成员对政治或议题几乎没有兴趣，他们的关切可能无法得到代表。</p>
+</section>
+<section id="opinion">
+<h2>意见 (Opinion)<a class="headerlink" href="#opinion" title="Link to this heading">¶</a></h2>
+<p>“意见”是人们在特定议题、政策、行动或领导人身上所采取的立场——支持、反对、中立或未决定。意见不是事实，而是人们对某一特定政治对象的情感表达。民调人员在进行问卷调查时，常对受访者说：“没有对错之分，重要的是您的想法。”意见与态度相关，但并不相同。态度是对人、群体或制度的持久性、总体性倾向。态度往往塑造意见。例如，那些强烈支持种族平等的人，往往会支持旨在限制住房和就业歧视的公共政策。</p>
+<section id="id2">
+<h3>个体意见的平等<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>公共舆论可以被视为个体意见的集合，在这种观点下，所有意见都应得到平等对待，而不论表达意见的人是否对某个问题具备知识。因此，公共舆论就是社会各个群体中人们偏好的聚合。利用民意调查来衡量人们的想法正是这种观点的基础（Glynn 等，1999）</p>
+</section>
+<section id="id3">
+<h3>多数人的意见更重要<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<p>另一种观点认为，公共舆论是由大多数人对某一问题所持的意见构成的。在民主制度中，多数人的意见才是最应当被重视的，并且应该指导政府领导人的决策。少数人的意见相较于多数人的意见则不那么重要。这种公共舆论的看法与普选的理念相一致，因为每个公民都有权对某个问题、政策或领导人发表意见——本质上相当于投票。最终，最多人所持的立场——换句话说，获得最多“投票”的立场——就是决策者应该采纳的立场。</p>
+<p>然而，公众很少会在某一问题上持有完全统一的意见。公众的偏好常常存在显著分歧，而且并不会出现明确的多数意见。这种情况给试图将这些偏好转化为政策的领导人带来了挑战。</p>
+</section>
+<section id="id4">
+<h3>精英意见<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<p>政治家、民调人员、政策专家、社会活动家和记者通常承担“意见领袖”的角色，他们塑造、创造并解读公共舆论。这些政治精英专注于追踪公共事务——这就是他们的工作（Zaller, 1992）。著名记者和社会评论家 Walter Lippmann 指出，普通人既没有时间，也没有兴趣去处理应对国家所面临的各种复杂问题这一“不可能完成的任务”。他们没有机会直接体验大多数政治事件，而必须依赖精英通过大众媒体传递的二手信息。在 Lippmann 看来，公共舆论最好由那些具备知识和能力的专家来管理，以推动政策。因此，最重要的应该是精英意见，而不是普通公民的看法。</p>
+</section>
+</section>
+<section id="id5">
+<h2>舆论的定义<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>学者</p></th>
+<th class="head"><p>年代/著作</p></th>
+<th class="head"><p>定义</p></th>
+<th class="head"><p>特点</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Walter Lippmann</p></td>
+<td><p>1922，Public Opinion</p></td>
+<td><p>公共舆论是“关于某些公共事务的那些意见的集合，这些意见在公众心目中是与他们有关的。”</p></td>
+<td><p>强调舆论并非直接反映现实，而是公众通过“图像与刻板印象”去理解世界，是心理建构。</p></td>
+</tr>
+<tr class="row-odd"><td><p>Herbert Blumer</p></td>
+<td><p>1948</p></td>
+<td><p>公共舆论不是统计学意义上所有个体意见的加总，而是由有影响力的群体在互动中形成的集体判断。</p></td>
+<td><p>强调“群体互动”和“社会权力”，认为舆论是社会过程，而非简单的个人意见总和。</p></td>
+</tr>
+<tr class="row-even"><td><p>V. O. Key Jr.</p></td>
+<td><p>1961，Public Opinion and American Democracy</p></td>
+<td><p>公共舆论是“在特定议题上，对政府官员采取行动有约束力的意见分布。”</p></td>
+<td><p>突出舆论对政府的影响力，是民主制度中制约决策者的力量。</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elisabeth Noelle-Neumann</p></td>
+<td><p>1974，沉默的螺旋</p></td>
+<td><p>公共舆论是一种社会控制力量，它决定哪些观点可以公开表达，哪些观点会被沉默。</p></td>
+<td><p>强调“社会压力”与“沉默效应”，少数意见者因害怕孤立而保持沉默。</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>简单来说：</p>
+<ul class="simple">
+<li><p>舆论指的是人们所持有的想法、信念和态度的分布；</p></li>
+<li><p>当我们说舆论支持某事时，这意味着它代表了<strong>大多数人</strong>的想法，而非所有人的想法；</p></li>
+<li><p>公共舆论更准确的衡量方式是通过科学的民意调查。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>舆论的四个要素<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
+<p>构成舆论的四个要素</p>
+<ul class="simple">
+<li><p>方向（Direction）</p></li>
+<li><p>强度（Intensity）</p></li>
+<li><p>稳定性（Stability）</p></li>
+<li><p>显著性（Salience）</p></li>
+</ul>
+<section id="id7">
+<h3>方向<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<p>指公众态度的取向：<strong>赞成/反对、正面/负面、支持哪一方等</strong>。它回答“朝哪边”的问题。方向决定了政策支持度，是最<strong>直观</strong>的舆论信号。</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法</p></th>
+<th class="head"><p>测量方式</p></th>
+<th class="head"><p>说明/指标</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>二分题（赞成/反对）</p></td>
+<td><p>问卷调查</p></td>
+<td><p>直接获取公众态度方向</p></td>
+</tr>
+<tr class="row-odd"><td><p>名义多选题（支持方案A/B/其他）</p></td>
+<td><p>问卷调查</p></td>
+<td><p>细分不同立场或选项</p></td>
+</tr>
+<tr class="row-even"><td><p>感觉温度计（0–100）</p></td>
+<td><p>问卷调查</p></td>
+<td><p>量化支持/反对的程度</p></td>
+</tr>
+<tr class="row-odd"><td><p>净支持度（%赞成 − %反对）</p></td>
+<td><p>指标计算</p></td>
+<td><p>反映总体倾向</p></td>
+</tr>
+<tr class="row-even"><td><p>支持/反对比值</p></td>
+<td><p>指标计算</p></td>
+<td><p>衡量两方力量对比</p></td>
+</tr>
+<tr class="row-odd"><td><p>分布形态（双峰/偏态）</p></td>
+<td><p>指标计算</p></td>
+<td><p>判断舆论是否极化或集中</p></td>
+</tr>
+<tr class="row-even"><td><p>立场识别（stance detection）</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>判断文本对议题的支持/反对/中立</p></td>
+</tr>
+<tr class="row-odd"><td><p>情感极性分类（polarity classification）</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>计算正面与负面贴文占比</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>原先的立场识别，需要依赖特征工程（词袋模型，TF-IDE等）、神经网络、预训练模型（RoBERTa, Sentence-BERT），进入大模型时代后，可通过提示学习的方法快速识别：</p>
+<ul class="simple">
+<li><p><strong>Zero-shot / Few-shot</strong>：用 GPT、Qwen 等大模型，通过提示词让模型直接分类（如“这条微博对延迟退休政策是支持还是反对？”）</p></li>
+<li><p><strong>Instruction Tuning / In-context Learning</strong>：给模型几个示例，让它学会立场识别</p></li>
+</ul>
+<p>其优点是不需要大量标注数据，不过输出结果的稳定性和一致性还需要进一步验证。</p>
+<p>实验数据集：Twitter stance detection （<a class="reference external" href="https://afshinrahimi.github.io/semeval2016-task6/">Semeval2016-task6</a>）</p>
+<p><img alt="standance-analysis" src="../_images/standance-analysis.png" /></p>
+<p>可视化动图：<a class="reference external" href="https://www.saifmohammad.com/WebPages/StanceDataset.htm">An Interactive Visualization</a></p>
+</section>
+<section id="id8">
+<h3>强度<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<p>指方向的强烈程度，它回答多么支持或者反对等。态度更强烈者更可能投票、捐款、发帖、游行，进而放大影响力。</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法</p></th>
+<th class="head"><p>测量方式</p></th>
+<th class="head"><p>说明/指标</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Likert 量表（“强烈赞成/赞成/中立/反对/强烈反对”）</p></td>
+<td><p>问卷</p></td>
+<td><p>捕捉态度强度分布</p></td>
+</tr>
+<tr class="row-odd"><td><p>信念确信度（confidence）</p></td>
+<td><p>问卷</p></td>
+<td><p>受访者对自己意见的确信程度</p></td>
+</tr>
+<tr class="row-even"><td><p>重要性感受（importance to you）</p></td>
+<td><p>问卷</p></td>
+<td><p>议题对个人的重要性评价</p></td>
+</tr>
+<tr class="row-odd"><td><p>Top-2-Box 与 Bottom-2-Box 差值</p></td>
+<td><p>指标</p></td>
+<td><p>强支持与强反对群体差异</p></td>
+</tr>
+<tr class="row-even"><td><p>平均强度得分</p></td>
+<td><p>指标</p></td>
+<td><p>综合计算总体态度强度</p></td>
+</tr>
+<tr class="row-odd"><td><p>行为倾向题（是否改变投票/捐款/参加集会）</p></td>
+<td><p>指标</p></td>
+<td><p>衡量强度与政治参与的关系</p></td>
+</tr>
+<tr class="row-even"><td><p>情感分值幅度</p></td>
+<td><p>score</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>极端措辞比例</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>强烈词汇（如“绝对”“完全”）占比</p></td>
+</tr>
+<tr class="row-even"><td><p>语气强度（感叹号、上限词等）</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>在线表达的情绪化程度</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="id9">
+<h3>稳定性<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<p>态度随时间的持久性与易变性。它回答“是否经得起时间/事件冲击”的问题。稳定的态度可用于中长期预测与政策路径依赖分析；不稳定的态度易受事件、媒体议程与经济冲击影响。</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法</p></th>
+<th class="head"><p>测量方式</p></th>
+<th class="head"><p>说明/指标</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>面板调查</p></td>
+<td><p>调查设计</p></td>
+<td><p>同一批人反复测量，追踪意见变化</p></td>
+</tr>
+<tr class="row-odd"><td><p>滚动横截面（RCS）</p></td>
+<td><p>调查设计</p></td>
+<td><p>不同样本的连续调查，反映总体趋势</p></td>
+</tr>
+<tr class="row-even"><td><p>重复横截面 + 加权</p></td>
+<td><p>调查设计</p></td>
+<td><p>严格抽样与权重控制，保证趋势稳定性</p></td>
+</tr>
+<tr class="row-odd"><td><p>时间序列波动</p></td>
+<td><p>指标</p></td>
+<td><p>移动标准差/方差衡量舆论波动程度</p></td>
+</tr>
+<tr class="row-even"><td><p>半衰期计算</p></td>
+<td><p>指标</p></td>
+<td><p>冲击后回归均值所需时间，反映稳定性</p></td>
+</tr>
+<tr class="row-odd"><td><p>变点检测（CUSUM/贝叶斯变点）</p></td>
+<td><p>指标</p></td>
+<td><p>判断舆论趋势发生显著变化的时点</p></td>
+</tr>
+<tr class="row-even"><td><p>概念漂移（concept drift）</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>议题主题或立场随时间的漂移</p></td>
+</tr>
+<tr class="row-odd"><td><p>周度/日度波动分析</p></td>
+<td><p>社媒/NLP</p></td>
+<td><p>关键信号在社交媒体上的短期波动</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="id10">
+<h3>显著性<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
+<p>某议题在个体或社会议程中的“重要性/当务之急”程度。它回答“在你的优先级里排第几”的问题。显著性决定注意力与资源分配，决定一票是否“绑在”该议题上（single-issue voters/issue publics）</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>方法</p></th>
+<th class="head"><p>测量方式</p></th>
+<th class="head"><p>说明/指标</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Most Important Problem（MIP）</p></td>
+<td><p>问卷</p></td>
+<td><p>询问“你认为当前最重要的问题是什么”</p></td>
+</tr>
+<tr class="row-odd"><td><p>议题优先级排序</p></td>
+<td><p>问卷</p></td>
+<td><p>受访者对多个议题排序，反映关注顺序</p></td>
+</tr>
+<tr class="row-even"><td><p>预算分配题（分配100分）</p></td>
+<td><p>问卷</p></td>
+<td><p>让受访者分配权重，体现相对重视程度</p></td>
+</tr>
+<tr class="row-odd"><td><p>Top-3比例</p></td>
+<td><p>指标</p></td>
+<td><p>将某议题列入前三的重要性比例</p></td>
+</tr>
+<tr class="row-even"><td><p>平均权重得分</p></td>
+<td><p>指标</p></td>
+<td><p>各议题在预算分配题中的平均得分</p></td>
+</tr>
+<tr class="row-odd"><td><p>个人 vs 群体差异</p></td>
+<td><p>指标</p></td>
+<td><p>比较个体和群体层面显著性差距</p></td>
+</tr>
+<tr class="row-even"><td><p>搜索指数（关键词热度）</p></td>
+<td><p>计算</p></td>
+<td><p>通过百度指数/Google Trends 衡量关注度</p></td>
+</tr>
+<tr class="row-odd"><td><p>新闻报道份额（Share of Voice）</p></td>
+<td><p>计算</p></td>
+<td><p>某议题在新闻报道中的占比</p></td>
+</tr>
+<tr class="row-even"><td><p>社媒话题占比与停留时长</p></td>
+<td><p>计算</p></td>
+<td><p>议题在社交媒体上的关注规模与深度</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>常见误区：</p>
+<ul class="simple">
+<li><p>媒体曝光 ≠ 个体显著性</p></li>
+<li><p>把“态度强度高”误当“显著性高”——一个人可能强烈支持但近期并不把它当头号问题。</p></li>
+</ul>
+</section>
+</section>
+<section id="id11">
+<h2>四维联动<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>高方向支持 × 高强度 × 高显著性 × 高稳定性：核心民意共识，适合推进。</p></li>
+<li><p>高支持但低显著性：潜在“沉默的多数”；需要提升注意力与叙事连接。</p></li>
+<li><p>高显著性但方向分裂：高风险、需精细化框架与议题切割。</p></li>
+<li><p>低稳定性：以监测为先，避免过度承诺。</p></li>
+</ul>
+</section>
+<section id="id12">
+<h2>参考文献<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h2>
+<p>Stimson, James A. <em>Public Opinion in America</em>. 2nd ed., Westview, 1999.</p>
+<p>Zaller, J., <em>The Nature and Origins of Mass Opinion</em> (New York: Cambridge, 1992).</p>
+</section>
+</section>
+
+        </article><button class="back-to-top" type="button">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+  </svg>
+  <span>回到顶部</span>
+</button><div class="navigation flex print:hidden"><div class="navigation-prev">
+    <a href="../1-Intro/project.html">
+      <i class="i-lucide chevron-left"></i>
+      <div class="page-info">
+        <span>上一章</span><div class="title">项目介绍</div></div>
+    </a>
+  </div><div class="navigation-next">
+    <a href="intro.html">
+      <div class="page-info">
+        <span>下一章</span>
+        <div class="title">舆论引导</div>
+      </div>
+      <i class="i-lucide chevron-right"></i>
+    </a>
+  </div></div></div>
+    </div>
+  </main>
+</div>
+<footer class="sy-foot">
+  <div class="sy-foot-inner sy-container mx-auto">
+    <div class="sy-foot-reserved md:flex justify-between items-center">
+      <div class="sy-foot-copyright"><p>北大突发公共事件舆论引导项目课题组</p>
+  
+  <p>
+    Made with
+    
+    <a href="https://www.sphinx-doc.org/">Sphinx</a> and
+    
+    <a href="https://shibuya.lepture.com">Shibuya theme</a>.
+  </p>
+</div>
+      <div class="sy-foot-socials"></div>
+    </div>
+  </div>
+</footer>
+      <script src="../_static/documentation_options.js?v=7c91f8fd"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/translations.js?v=beaddf03"></script>
+      <script src="../_static/shibuya.js?v=e730760c"></script></body>
+</html>
